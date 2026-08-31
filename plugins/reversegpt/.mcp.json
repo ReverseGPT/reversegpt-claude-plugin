@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reversegpt": {
+      "type": "http",
+      "url": "https://www.reversegpt.ai/api/mcp"
+    }
+  }
+}

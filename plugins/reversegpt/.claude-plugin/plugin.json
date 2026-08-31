@@ -1,0 +1,21 @@
+{
+  "name": "reversegpt",
+  "description": "Rewrite AI-generated drafts so they read as natural, human writing — keeping the meaning, facts, and formatting intact. Humanize a pasted draft or a whole document without touching its structure, headings, or claims. Powered by the ReverseGPT MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ReverseGPT",
+    "url": "https://www.reversegpt.ai"
+  },
+  "homepage": "https://www.reversegpt.ai",
+  "repository": "https://github.com/abrunner94/reversegpt-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "humanizer",
+    "ai-writing",
+    "rewrite",
+    "paraphrase",
+    "editing",
+    "writing",
+    "mcp"
+  ]
+}

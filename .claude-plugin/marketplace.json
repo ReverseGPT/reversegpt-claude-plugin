@@ -1,0 +1,22 @@
+{
+  "name": "reversegpt-ai",
+  "owner": {
+    "name": "ReverseGPT",
+    "url": "https://www.reversegpt.ai"
+  },
+  "metadata": {
+    "description": "Official Claude plugins for ReverseGPT — rewrite AI-generated drafts so they read as natural, human writing, keeping the meaning, facts, and formatting intact."
+  },
+  "plugins": [
+    {
+      "name": "reversegpt",
+      "source": "./plugins/reversegpt",
+      "description": "Rewrite AI-generated drafts so they read as natural, human writing — keeping the meaning, facts, and formatting intact.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ReverseGPT",
+        "url": "https://www.reversegpt.ai"
+      }
+    }
+  ]
+}
