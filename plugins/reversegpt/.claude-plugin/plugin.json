@@ -1,6 +1,6 @@
 {
   "name": "reversegpt",
-  "description": "Rewrite AI-generated drafts so they read as natural, human writing — keeping the meaning, facts, and formatting intact. Humanize a pasted draft or a whole document without touching its structure, headings, or claims. Powered by the ReverseGPT MCP server.",
+  "description": "Rewrite AI-generated drafts so they read as natural, human writing \u2014 keeping the meaning, facts, and formatting intact. Humanize a pasted draft or a whole document without touching its structure, headings, or claims. Powered by the ReverseGPT MCP server.",
   "version": "0.1.0",
   "author": {
     "name": "ReverseGPT",

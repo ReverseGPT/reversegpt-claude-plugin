@@ -1,3 +1,5 @@
+<img src="logo.png" alt="ReverseGPT" width="88" align="right">
+
 # ReverseGPT plugin
 
 Rewrite AI-generated drafts so they read as natural, human writing — keeping the

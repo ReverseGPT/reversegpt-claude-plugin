@@ -1,3 +1,5 @@
+<img src="plugins/reversegpt/logo.png" alt="ReverseGPT" width="88" align="right">
+
 # reversegpt-claude-plugin
 
 The official Claude plugin **marketplace** for [ReverseGPT](https://www.reversegpt.ai).
