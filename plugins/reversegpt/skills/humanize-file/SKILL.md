@@ -19,6 +19,8 @@ Run a whole file through the ReverseGPT MCP tools without losing its shape.
    free. **Never resubmit a part's text**: the run is already paid for and in flight,
    and a second call is a second charge. If one part fails it was not charged; retry
    that part once, and if it fails again keep the original text for it and say so.
+   If a call errors or times out with no envelope at all, you have no `jobId` and a
+   run may still have started — do not resubmit that part; report it and stop.
 4. **Reassemble faithfully.** Stitch the parts back in their original order, restoring
    the headings, lists, spacing, and any blocks you held out. The output should differ
    from the input in prose only — never in structure.

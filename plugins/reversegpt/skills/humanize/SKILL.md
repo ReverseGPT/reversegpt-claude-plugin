@@ -25,9 +25,13 @@ your job is to hand the draft over untouched and hand the result back untouched.
    with the returned `jobId` until it is done (polling is free). **Never call
    `humanize_text` again with the same text** — that run is already paid for and
    already in flight, so a second call is a second charge.
-5. **A `failed` run was not charged** — retry it once, then report the failure
+5. **If the call itself errors or times out** with no envelope back, you have no
+   `jobId` to poll — but a run may still have started and been charged. Do **not**
+   resubmit to "retry". Say what happened and point the user at their ReverseGPT
+   history to pick the run up, or have them re-run it deliberately.
+6. **A `failed` run was not charged** — retry it once, then report the failure
    plainly rather than substituting your own rewrite.
-6. **`ultra` only on request.** It is a second rewriting pass and Max-plan only;
+7. **`ultra` only on request.** It is a second rewriting pass and Max-plan only;
    non-Max accounts are silently downgraded. Read the `ultra` field back off the
    response and report what actually ran — never assume the flag you sent took effect.
 
