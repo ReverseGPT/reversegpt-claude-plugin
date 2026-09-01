@@ -7,7 +7,7 @@
     "url": "https://www.reversegpt.ai"
   },
   "homepage": "https://www.reversegpt.ai",
-  "repository": "https://github.com/abrunner94/reversegpt-claude-plugin",
+  "repository": "https://github.com/ReverseGPT/reversegpt-claude-plugin",
   "license": "MIT",
   "keywords": [
     "humanizer",

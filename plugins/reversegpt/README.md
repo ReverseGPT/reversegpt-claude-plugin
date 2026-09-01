@@ -70,7 +70,7 @@ should ask before running it rather than auto-approving.
 ## Install
 
 ```
-/plugin marketplace add abrunner94/reversegpt-claude-plugin
+/plugin marketplace add ReverseGPT/reversegpt-claude-plugin
 /plugin install reversegpt@reversegpt-ai
 ```
 

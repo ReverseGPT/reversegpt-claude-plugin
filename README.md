@@ -22,7 +22,7 @@ reversegpt-claude-plugin/
 ## Install (what your users run)
 
 ```
-/plugin marketplace add abrunner94/reversegpt-claude-plugin
+/plugin marketplace add ReverseGPT/reversegpt-claude-plugin
 /plugin install reversegpt@reversegpt-ai
 ```
 
@@ -44,8 +44,8 @@ call; failed runs are not charged.
 
 ### 1. Owner
 
-This repo is set for the **`abrunner94`** GitHub account — the install command
-(`abrunner94/reversegpt-claude-plugin`), the plugin's `repository` field, and the
+This repo lives under the **`ReverseGPT`** GitHub org — the install command
+(`ReverseGPT/reversegpt-claude-plugin`), the plugin's `repository` field, and the
 READMEs all reference it. (`marketplace.json` uses a relative plugin source, so it is
 owner-independent — a fork keeps working.)
 
@@ -76,16 +76,12 @@ The repo name **must** match the install command (`reversegpt-claude-plugin`), a
 must be **public** so users can fetch it.
 
 ```bash
-git init -b main
-git add .
-git commit -m "ReverseGPT Claude plugin + marketplace"
-gh repo create abrunner94/reversegpt-claude-plugin --public --source=. --push
-# or create it on github.com, then:
-#   git remote add origin https://github.com/abrunner94/reversegpt-claude-plugin.git
-#   git push -u origin main
+gh repo edit ReverseGPT/reversegpt-claude-plugin --visibility public
+git push -u origin main
 ```
 
-That's it — it's live. Anyone can now run the two install commands above.
+The repo already exists under the org. It must be **public** before the install
+commands above resolve for anyone else — a private marketplace repo fails to add.
 
 ### 5. Ship updates
 
